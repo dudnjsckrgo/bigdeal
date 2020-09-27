@@ -236,8 +236,8 @@ class Naver:
     def login(self):
       
         ############################################
-        id = 'dudnjsckrgo'
-        pw = 'ducktazo131550'
+        id = 
+        pw = 
         ############################################
         sleep(0.5)#트래킹 공격이라 인식할수있게때문에 정보에 딜레이를 준다
         self.driver.execute_script("document.getElementsByName('id')[0].value=\'" + id + "\'")
