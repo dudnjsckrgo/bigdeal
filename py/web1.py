@@ -21,7 +21,7 @@ def my_request(url, postfields):
     return response
 def login(username, passward):
     login_url = "https://world.taobao.com/markets/all/login?spm=a21wu.241046-kr.7607074463.12.41cab6cbbtolSx"
-    form_values = {"id":"skytech", "pw":"sky4275"}
+    form_values = {"id":"", "pw":""}
     formdata =urllib.parse.urlencode(form_values)
     
     try:
